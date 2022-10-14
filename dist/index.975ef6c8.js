@@ -515,7 +515,7 @@ var _loader = require("./js/loader");
 var _headerFixed = require("./js/scroll/header-fixed");
 var _viewTrailers = require("./js/view-trailers");
 
-},{"./js/fetch/fetch-genres":"dioGm","./js/modal-card":"2yd8E","./js/scroll/scroll-to-top":"a6KaP","./js/modal-info":"lQFmh","./js/queue":"dGrI7","./js/add-to-watched":"fCB5m","./js/team-modal":"7SYlg","./js/loader":"aAovl","./js/watched":"gX8xR","./js/scroll/header-fixed":"8QVU5","./js/view-trailers":"7mCXx"}],"dioGm":[function(require,module,exports) {
+},{"./js/fetch/fetch-genres":"dioGm","./js/modal-card":"2yd8E","./js/scroll/scroll-to-top":"a6KaP","./js/modal-info":"lQFmh","./js/queue":"dGrI7","./js/watched":"gX8xR","./js/add-to-watched":"fCB5m","./js/team-modal":"7SYlg","./js/loader":"aAovl","./js/scroll/header-fixed":"8QVU5","./js/view-trailers":"7mCXx"}],"dioGm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // пошук жанрів по id
@@ -5235,7 +5235,7 @@ function findBtnQueue() {
     queueEl.addEventListener("click", changeListQueue);
 }
 
-},{"./local-storage-api":"kGcQy","./display-films":"6SStJ","./markup/film-cards-markup":"lplUS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./markup/clear-markup":"dzXeo"}],"lplUS":[function(require,module,exports) {
+},{"./local-storage-api":"kGcQy","./display-films":"6SStJ","./markup/film-cards-markup":"lplUS","./markup/clear-markup":"dzXeo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lplUS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _fetchGenres = require("../fetch/fetch-genres");
@@ -5404,7 +5404,7 @@ function findBtnWatched() {
     addBtnRef.addEventListener("click", onClickBtnAddToWatched);
 }
 
-},{"./local-storage-api":"kGcQy","./display-films":"6SStJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./watched":"gX8xR"}],"gX8xR":[function(require,module,exports) {
+},{"./local-storage-api":"kGcQy","./display-films":"6SStJ","./watched":"gX8xR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gX8xR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "clickOnWatched", ()=>clickOnWatched);
